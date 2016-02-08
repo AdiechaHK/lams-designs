@@ -20,7 +20,8 @@
             <div class="col-lg-8">
               <div class="box">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Bordered Table</h3>
+                  <h3 class="box-title">Time Schedule</h3>
+                  <a href="#hours" data-toggle="modal"><i class="fa fa-plus fa-2x pull-right"></i></a>
                 </div><!-- /.box-header -->
                 <div class="box-body">
                   <table class="table table-bordered">
@@ -116,9 +117,84 @@
                   </table>
                 </div><!-- /.box-body -->
                 <div class="box-footer clearfix">
-                  <div class="pull-right">
+                  <!-- <div class="pull-right">
                     <a href="#" class="m-l-15"><i class="fa fa-calendar fa-2x"></i></a>
-                  </div>
+                  </div> -->
+                  <ul class="pagination pagination-sm no-margin pull-right">
+                    <li><a href="#">&laquo;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                  </ul>
+                </div>
+              </div><!-- /.box -->
+            </div>
+            <div class="col-lg-4">
+              <div class="box">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Holiday List 2016</h3>
+                  <a href="#date" data-toggle="modal"><i class="pull-right fa fa-calendar fa-2x"></i></a>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table class="table table-bordered">
+                    <tr>
+                      <th>Date</th>
+                      <th>Holiday Name</th>
+                      <!-- <th style="width: 40px">Label</th> -->
+                    </tr>
+                    <tr>
+                      <td style="width:150px">
+                        <a href="#date" data-toggle="modal"><i class="fa fa-calendar-o"></i></a>&nbsp;&nbsp;
+                        05/02/2016
+                      </td>
+                      <td>1.</td>
+                      <!-- <td>Update software</td> -->
+                      <!-- <td>
+                        <div class="progress progress-xs">
+                          <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                        </div>
+                      </td>
+                      <td><span class="badge bg-red">55%</span></td> -->
+                    </tr>
+                    <tr>
+                      <td style="width:150px">
+                        <a href="#date" data-toggle="modal"><i class="fa fa-calendar-o"></i></a>&nbsp;&nbsp;
+                        05/02/2016
+                      </td>
+                      <td>1.</td>
+                    </tr>
+                    <tr>
+                      <td style="width:150px">
+                        <a href="#date" data-toggle="modal"><i class="fa fa-calendar-o"></i></a>&nbsp;&nbsp;
+                        05/02/2016
+                      </td>
+                      <td>1.</td>
+                    </tr>
+                    <tr>
+                      <td style="width:150px">
+                        <a href="#date" data-toggle="modal"><i class="fa fa-calendar-o"></i></a>&nbsp;&nbsp;
+                        05/02/2016
+                      </td>
+                      <td>1.</td>
+                    </tr>
+                    <tr>
+                      <td style="width:150px">
+                        <a href="#date" data-toggle="modal"><i class="fa fa-calendar-o"></i></a>&nbsp;&nbsp;
+                        05/02/2016
+                      </td>
+                      <td>1.</td>
+                    </tr>
+                    <tr>
+                      <td style="width:150px">
+                        <a href="#date" data-toggle="modal"><i class="fa fa-calendar-o"></i></a>&nbsp;&nbsp;
+                        05/02/2016
+                      </td>
+                      <td>1.</td>
+                    </tr>
+                  </table>
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix">
                   <ul class="pagination pagination-sm no-margin pull-right">
                     <li><a href="#">&laquo;</a></li>
                     <li><a href="#">1</a></li>
@@ -168,12 +244,43 @@
                         </div><!-- /.form group -->
                       </div>
                       <div class="form-group">
-                        <label>Select</label>
-                        <select class="form-control">
-                          <option>Recess Time</option>
-                          <option>Class</option>
-                          <option>Project</option>
-                        </select>
+                        <label for="exampleInputEmail1">Enter Text</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Text">
+                      </div>
+                    </div><!-- /.box-body -->
+                    <!-- </form> -->
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <a href="#" class="btn btn-primary" data-dismiss="modal">save</a>
+                  <a href="#" class="btn btn-primary" data-dismiss="modal">close</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="date" role="dialog" >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2>Date & Holiday :</h2>
+                </div>
+                <div class="modal-body">
+                  <form role="form">
+                    <div class="box-body">
+                      <!-- <div class="form-group">
+                        <label for="exampleInputEmail1">Start Time</label>
+                        <input type="text" class="form-control timepicker" id="exampleInputEmail1" placeholder="Enter Division Name">
+                      </div> -->
+                      <div class="bootstrap-timepicker">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Date</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Date">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Holiday Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Holiday Name">
                       </div>
                     </div><!-- /.box-body -->
                     <!-- </form> -->
