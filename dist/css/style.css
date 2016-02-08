@@ -1,0 +1,58 @@
+.m-t-5{
+	margin-top: 5px;
+}
+.white-clr{
+	color: white;
+}
+.black-clr{
+	color: black;
+}
+.skin-purple .wrapper, .skin-purple .main-sidebar, .skin-purple .left-side{
+	background-color: white;
+}
+.skin-purple .sidebar a{
+	color: black;
+}
+.skin-purple .sidebar-menu>li:hover>a, .skin-purple .sidebar-menu>li.active>a{
+	color: black;
+	background-color: #f4f4f5;
+}
+.skin-purple .sidebar-menu>li>.treeview-menu{
+	background-color: #f4f4f5;
+}
+.skin-purple .treeview-menu>li.active>a, .skin-purple .treeview-menu>li>a:hover{
+	color: #8aa4af;
+}
+.skin-purple .user-panel>.info, .skin-purple .user-panel>.info>a{
+	color: black;
+}
+.skin-purple .sidebar-form input[type="text"], .skin-purple .sidebar-form .btn{
+	background-color: transparent;
+}
+.skin-purple .sidebar-menu>li.header{
+	background-color: transparent;
+}
+/*.skin-purple .sidebar-menu>li.header{
+	color: black;
+}
+.skin-purple .sidebar-menu>li.header{
+	color: white;
+}*/
+.m-l-10{
+	margin-left: 10px;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+.w-50{
+	width: 50px;
+}
+.w-170{
+	width: 170px;
+}
+.w-60{
+	width: 60px;
+}
+.m-l-15{
+	margin-left: 15px;
+}
